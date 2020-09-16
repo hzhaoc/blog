@@ -11,8 +11,7 @@
         <footer id="colophon" class="site-footer" role="contentinfo">
             <div class="site-info container">
             <?php /* translators: %s: WordPress */ ?>
-                <a href="<?php echo esc_url( esc_attr__( 'https://wordpress.org/', 'thesimplest' ) ) ?>"><?php printf( esc_attr__( 'Proudly powered by %s', 'thesimplest' ), 'WordPress' ); ?></a>
-            </div>
+                <a href="<?php echo esc_url( esc_attr__( 'https://hzhaoc.io/', 'thesimplest' ) ) ?>"><?php printf( esc_attr__( 'Author, Developer @%s', 'thesimplest' ), 'hzhaoc' ); ?></a>            </div>
         </footer>
         <?php 
             endif; 
